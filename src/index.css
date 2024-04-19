@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.dropdown {
+  @apply absolute top-24 left-0 w-screen bg-slate-100
+    h-0 p-0 overflow-hidden md:hidden;
+}
+
+.dropdown.active {
+  overflow: auto;
+  @apply p-8 h-fit;
+}
+
+.close {
+  cursor: pointer;
+  div:nth-child(1) {
+    transform: translateY(1px);
+    rotate: 45deg;
+  }
+  div:nth-child(2) {
+    display: none;
+  }
+  div:nth-child(3) {
+    transform: translateY(-1px);
+    rotate: -45deg;
+  }
+  @apply md:hidden;
+}
