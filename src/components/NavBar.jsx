@@ -17,7 +17,7 @@ export default function NavBar() {
       <div
         className={
           showDropDown
-            ? "flex flex-col gap-1 md:hidden cursor-pointer"
+            ? "flex flex-col gap-1 lg:hidden cursor-pointer"
             : "close"
         }
         onClick={handleDropDownClick}
@@ -49,7 +49,7 @@ export default function NavBar() {
         </ul>
       </div>
 
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <ul className="flex gap-8 text-sm font-normal uppercase">
           <li>
             <a href="/">Home</a>
@@ -67,7 +67,10 @@ export default function NavBar() {
             <a href="#">Blog</a>
           </li>
           <li>
-            <a href="#" className="p-4 bg-blue-400 text-white rounded-md">
+            <a
+              href="#"
+              className="p-4 bg-[var(--primary-blue)] text-white rounded-md"
+            >
               Get Hosting
             </a>
           </li>

@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary-blue: #0066ff;
+  --secondary-blue: #3b88ff;
+  --primary-purple: #573280;
+  --primary-grey: #E7E7EE;
+  --primary-black: #000000;
+  --text-grey: rgba(0,0,0,0.75);
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -9,8 +17,8 @@
 }
 
 .dropdown {
-  @apply absolute top-24 left-0 w-screen bg-slate-100
-    h-0 p-0 overflow-hidden md:hidden;
+  @apply absolute top-24 left-0 w-screen bg-[var(--primary-grey)]
+    h-0 p-0 overflow-hidden lg:hidden;
 }
 
 .dropdown.active {
@@ -31,5 +39,5 @@
     transform: translateY(-1px);
     rotate: -45deg;
   }
-  @apply md:hidden;
+  @apply lg:hidden;
 }

@@ -1,9 +1,12 @@
-import { HeroSection } from "./components/HeroSection";
+import { Fragment } from "react";
+import Body from "./components/Body";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <HeroSection />
+      <Header />
+      <Body />
     </>
   );
 }
