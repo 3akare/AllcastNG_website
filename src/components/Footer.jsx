@@ -9,12 +9,14 @@ import {
 export default function Footer() {
   return (
     <footer className="w-screen flex flex-col items-center justify-center bg-[var(--primary-black)] text-white">
-      <section className="container max-w-4xl  mx-auto grid grid-cols-2 lg:grid-cols-4 place-items-center gap-2 p-8 py-12">
-        <img src="assets/images/microsoft 1.svg" alt="" className="w-64 h-20" />
-        <img src="assets/images/hp.svg" alt="" className="w-64 h-20" />
+      <section className="container max-w-4xl  mx-auto grid grid-cols-2 lg:grid-cols-4 place-items-center gap-8 p-8 py-12">
+        <img src="assets/images/microsoft.svg" alt="" className="w-64 h-20" />
+
         <img src="assets/images/intel.svg" alt="" className="w-64 h-20" />
-        <img src="assets/images/plesk 1.svg" alt="" className="w-64 h-20" />
         <img src="assets/images/cpanel.svg" alt="" className="w-64 h-20" />
+        <img src="assets/images/cisco.svg" alt="" className="w-64 h-20" />
+        <img src="assets/images/ibm-logo.svg" alt="" className="w-64 h-20" />
+        <img src="assets/images/hostbill.svg" alt="" className="w-64 h-20" />
       </section>
       <section className="container mx-auto grid grid-cols-2 lg:grid-cols-4 gap-12 justify-items-cente p-4 px-8">
         <div className="flex gap-2 flex-col">
@@ -66,8 +68,8 @@ export default function Footer() {
           <p className="font-thin text-sm">
             We'll respond all your questions quickly.
           </p>
-          <a href="tel:+234000000000">800 2567 900</a> <br />
-          <a href="mail:mail@example.com">mail@example.com</a>
+          <a href="tel:+234 806 699 0129">+234 806 699 0129</a> <br />
+          <a href="mail:allcastoffice@allcast.ng">allcastoffice@allcast.ng</a>
         </div>
       </section>
       <section className="container mx-auto flex flex-col justify-center items-center gap-8 p-2 py-4">
