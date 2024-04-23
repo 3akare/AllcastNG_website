@@ -8,7 +8,7 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="w-screen">
+    <nav className="w-screen fixed z-10 text-white bg-black">
       <div className="container mx-auto flex items-center justify-between p-8">
         <div className="flex flex-row gap-2 items-center justify-center">
           <a href="/" className="flex items-center justify-center gap-1 flex-row">

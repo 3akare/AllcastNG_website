@@ -5,7 +5,6 @@ export default function Header() {
   return (
     <header>
       <div className="overlay"></div>
-      <NavBar />
       <HeaderBody />
     </header>
   );

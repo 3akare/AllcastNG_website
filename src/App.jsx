@@ -1,13 +1,18 @@
 import Body from "./components/Body";
-import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <>
-      <Header />
-      <Body />
-      <Footer />
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route exact path="/" element={<Body />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }
