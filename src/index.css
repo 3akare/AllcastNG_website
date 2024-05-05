@@ -14,6 +14,11 @@
   src: url("./assets/fonts/ClashDisplay-Semibold.woff2");
 }
 
+@font-face {
+  font-family: "clash-normal";
+  src: url("./assets/fonts/ClashDisplay-Medium.woff2");
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
