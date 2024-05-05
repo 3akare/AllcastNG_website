@@ -142,7 +142,7 @@ function App() {
                 Get Started
               </a> */}
               <a
-                href="#pricing"
+                href="tel:+2348066990129"
                 className="bg-[#ffffff] px-6 py-3 w-full max-lg:max-w-[500px] max-w-fit !text-black font-semibold text-base hover:bg-black hover:!text-white transition-colors duration-300"
               >
                 Schedule a Call Now!
